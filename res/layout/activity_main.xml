@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eventtrac.MainActivity" 
+    >
+    
+     <TextView
+        android:id="@+id/outputTxtBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="50sp"
+        android:text="@string/defaultTxt" />
+    
+    <TextView
+        android:id="@+id/gyroTxtBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="70sp"
+        android:text="@string/gyroTxt" />
+    
+    <TextView
+        android:id="@+id/acceTxtBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="70sp"
+        android:text="@string/acceTxt" />
+    
+    <TextView
+        android:id="@+id/gpsTxtBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="100sp"
+        android:text="@string/gpsTxt" />
+    
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="350sp"
+        android:text="@string/startBtn"
+        />
+    
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="165sp"
+        android:layout_marginTop="350sp"
+        android:text="@string/stopBtn"
+        />
+
+</RelativeLayout>

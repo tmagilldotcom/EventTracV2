@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EventTrac</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loggingStart">Logging Started!</string>
+    <string name="startBtn">Start Logging</string>
+    <string name="stopBtn">Stop Logging</string>
+    <string name="defaultTxt">Please start logging</string>
+    <string name="gyroTxt">Gyrometer Output</string>
+    <string name="acceTxt">Accelerometer Output</string>
+    <string name="gpsTxt">GPS Output</string>
+
+</resources>
